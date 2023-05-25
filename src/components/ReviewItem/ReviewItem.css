@@ -1,0 +1,37 @@
+.review-item{
+    width: 570px;
+    /* height: 107px; */
+    border: 1px solid seagreen;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+.review-item img{
+    height: 90px;
+    height: 90px;
+}
+.review-details{
+    flex-grow: 1;
+}
+.review-details p{
+    margin: 0 15px;
+}
+.orange-text{
+    color: lightsalmon;
+}
+.btn-delete{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: rgba(235,87,87,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.delete-icon{
+    color: red;
+    font-size: 27px;
+    /* align-items: center; */
+}
